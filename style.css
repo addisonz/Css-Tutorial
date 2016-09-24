@@ -1,0 +1,35 @@
+h1 {
+    color: #000;
+    -webkit-transition: color 1s ease-in;
+    /*safari and chrome */
+    -moz-transition: color 1s ease-in;
+    /* firefox */
+    -o-transition: color 1s ease-in;
+    /* opera */
+}
+
+h1:hover {
+    color: #c00;
+    background-size: 100px 82px;
+}
+
+h2 {
+    color: #00BFFF;
+    -webkit-transition: color 1s ease-in;
+    /*safari and chrome */
+    -moz-transition: color 1s ease-in;
+    /* firefox */
+    -o-transition: color 1s ease-in;
+    /* opera */
+}
+
+h2:hover {
+    color: #800000;
+    background-size: 100px 82px;
+}
+
+p {
+    width: 320px;
+    float: left;
+    shape-outside: circle(170%);
+}
